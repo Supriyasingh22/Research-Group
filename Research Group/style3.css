@@ -1,0 +1,51 @@
+/* Style for the red section */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    grid-gap: 10px; /* gap between cards */
+  }
+  
+  .card {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* add shadow effect */
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+  }
+  
+.red-section {
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Style for cards inside the red section */
+  .red-section .card {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the white section */
+  .white-section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  /* Style for cards inside the white section */
+  .white-section .card {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  ul {
+    list-style-type: none;
+  }
